@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aqua Botânica — Especialistas em lagos ornamentais, piscinas naturais e ecossistemas aquáticos em Curitiba." />
+  <title>Aqua Botânica — Lagos Ornamentais e Piscinas Naturais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="#" class="header__logo" aria-label="Aqua Botânica — Página inicial">
+        <svg class="header__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 4C20 4 8 18 8 26C8 32.627 13.373 38 20 38C26.627 38 32 32.627 32 26C32 18 20 4 20 4Z" fill="#818CF8"/>
+          <path d="M16 28C16 28 18 22 24 20C24 20 22 26 16 28Z" fill="#10B981"/>
+          <path d="M14 26C14 26 10 24 12 20C12 20 16 22 14 26Z" fill="#34D399"/>
+        </svg>
+        <span>Aqua Botânica</span>
+      </a>
+      <nav class="header__nav" role="navigation" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header__actions">
+        <a href="https://www.instagram.com/aquabotanica_ecossistemas/" target="_blank" rel="noopener noreferrer" class="header__instagram" aria-label="Siga no Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#contato" class="header__cta" role="button">Fale Conosco</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" role="region" aria-label="Capa">
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <img src="identidade/logo.jpg" alt="Logomarca Aqua Botânica" class="hero__logo" width="220" height="220" loading="eager" />
+    <div class="hero__content">
+      <h1>Aqua Botânica Lagos</h1>
+      <p>Especialistas na criação de lagos ornamentais, piscinas naturais e ecossistemas aquáticos. Desenvolvemos projetos exclusivos com filtragem biológica, paisagismo e soluções completas para ambientes naturais, valorizando seu espaço com beleza, equilíbrio e sustentabilidade.</p>
+      <a href="#contato" class="hero__btn" role="button">Solicitar Orçamento</a>
+    </div>
+    <div class="organic-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,120 720,0 1080,64 C1260,96 1380,80 1440,64 L1440,120 L0,120 Z"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre section-fade" role="region" aria-label="Sobre nós">
+    <div class="container">
+      <div class="sobre__grid">
+        <div class="sobre__text reveal-left">
+          <span class="section-tag">Quem Somos</span>
+          <h2>Criamos ecossistemas vivos</h2>
+          <p>
+            A Aqua Botânica nasceu da paixão por transformar espaços comuns em ambientes aquáticos
+            que respiram vida. Não apenas lagos ornamentais — ecossistemas completos onde água,
+            plantas e peixes coexistem em harmonia.
+          </p>
+          <p>
+            Cada projeto é único. Do design à manutenção, cuidamos de cada detalhe para que seu lago
+            seja sempre um ponto de equilíbrio e beleza no seu lar.
+          </p>
+        </div>
+        <div class="sobre__visual">
+          <div class="sobre__card hover-lift reveal-right reveal-delay-1">
+            <span class="sobre__number gradient-text">+150</span>
+            <span class="sobre__label">Projetos Entregues</span>
+          </div>
+          <div class="sobre__card hover-lift reveal-right reveal-delay-2">
+            <span class="sobre__number gradient-text">8+</span>
+            <span class="sobre__label">Anos de Experiência</span>
+          </div>
+          <div class="sobre__card hover-lift reveal-right reveal-delay-3">
+            <span class="sobre__number gradient-text">100%</span>
+            <span class="sobre__label">Ecossistemas Sustentáveis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSO -->
+  <section class="processo section-fade" role="region" aria-label="Como trabalhamos">
+    <div class="container">
+      <span class="section-tag section-tag--center">Como Trabalhamos</span>
+      <h2 class="section-title section-title--center">Do sonho à realidade em 4 passos</h2>
+      <div class="processo__grid">
+        <div class="processo-step hover-lift reveal reveal-delay-1">
+          <div class="processo-step__number">01</div>
+          <h3>Visita Técnica</h3>
+          <p>Conhecemos seu espaço, entendemos seu desejo e analisamos as condições do terreno.</p>
+        </div>
+        <div class="processo-step hover-lift reveal reveal-delay-2">
+          <div class="processo-step__number">02</div>
+          <h3>Projeto Personalizado</h3>
+          <p>Criamos o design exclusivo com plantas, filtragem biológica e materiais ideais.</p>
+        </div>
+        <div class="processo-step hover-lift reveal reveal-delay-3">
+          <div class="processo-step__number">03</div>
+          <h3>Instalação</h3>
+          <p>Executamos cada etapa com precisão, cuidando de pedra, água e vegetação.</p>
+        </div>
+        <div class="processo-step hover-lift reveal reveal-delay-4">
+          <div class="processo-step__number">04</div>
+          <h3>Manutenção</h3>
+          <p>Cuidamos do seu ecossistema para que permaneça vivo e equilibrado sempre.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="servicos section-fade" role="region" aria-label="Serviços">
+    <div class="container">
+      <span class="section-tag section-tag--center">Nossos Serviços</span>
+      <h2 class="section-title section-title--center">Soluções completas em águas vivas</h2>
+      <div class="servicos__grid">
+        <div class="servico-card hover-lift hover-glow reveal reveal-delay-1">
+          <div class="servico-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 6L6 22H12V40H36V22H42L24 6Z" stroke="#818CF8" stroke-width="2.5" fill="none"/><path d="M18 40V28H30V40" stroke="#10B981" stroke-width="2.5"/><circle cx="24" cy="22" r="4" fill="#34D399" opacity="0.6"/></svg>
+          </div>
+          <h3>Instalação</h3>
+          <p>Projeto completo de lagos ornamentais e piscinas naturais, do planejamento à execução.</p>
+        </div>
+        <div class="servico-card hover-lift hover-glow reveal reveal-delay-2">
+          <div class="servico-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><ellipse cx="24" cy="32" rx="18" ry="10" stroke="#818CF8" stroke-width="2.5" fill="none"/><path d="M6 32C6 32 14 18 24 18C34 18 42 32 42 32" stroke="#34D399" stroke-width="2.5" fill="none"/><path d="M20 28C20 28 22 24 28 26" stroke="#10B981" stroke-width="2"/></svg>
+          </div>
+          <h3>Piscinas Naturais</h3>
+          <p>Piscinas que eliminam químicos usando filtragem biológica e plantas aquáticas.</p>
+        </div>
+        <div class="servico-card hover-lift hover-glow reveal reveal-delay-3">
+          <div class="servico-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M10 24C10 24 16 14 24 14C32 14 38 24 38 24C38 24 32 34 24 34C16 34 10 24 10 24Z" stroke="#818CF8" stroke-width="2.5" fill="none"/><circle cx="24" cy="24" r="3" fill="#10B981"/><path d="M30 22C32 20 34 18 36 16" stroke="#34D399" stroke-width="2"/><path d="M30 26C32 28 34 30 36 32" stroke="#34D399" stroke-width="2"/></svg>
+          </div>
+          <h3>Carpas</h3>
+          <p>Seleção e manejo de carpas koi e ornamentais para seu lago ganhar personalidade.</p>
+        </div>
+        <div class="servico-card hover-lift hover-glow reveal reveal-delay-4">
+          <div class="servico-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="16" stroke="#818CF8" stroke-width="2.5" fill="none"/><path d="M24 14V24L30 30" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="2" fill="#34D399"/></svg>
+          </div>
+          <h3>Manutenção</h3>
+          <p>Planos de manutenção para manter seu ecossistema aquático saudável o ano todo.</p>
+        </div>
+        <div class="servico-card servico-card--wide hover-lift hover-glow reveal">
+          <div class="servico-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="6" y="6" width="36" height="36" rx="4" stroke="#818CF8" stroke-width="2.5" fill="none"/><path d="M6 18H42" stroke="#10B981" stroke-width="2"/><path d="M18 18V42" stroke="#10B981" stroke-width="2"/><circle cx="30" cy="30" r="6" fill="#34D399" opacity="0.4"/><path d="M28 30L30 28L32 30L30 32Z" fill="#10B981"/></svg>
+          </div>
+          <h3>Projetos Personalizados</h3>
+          <p>Cada espaço é único. Desenvolvemos projetos sob medida que integram água, pedra e vegetação de forma natural.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="projetos section-fade" role="region" aria-label="Projetos">
+    <div class="container">
+      <span class="section-tag section-tag--center">Nossos Projetos</span>
+      <h2 class="section-title section-title--center">Espaços que ganharam vida</h2>
+      <div class="projetos__grid">
+      </div>
+      <div class="projetos__cta reveal-scale">
+        <a href="https://www.instagram.com/aquabotanica_ecossistemas/" target="_blank" rel="noopener noreferrer" class="projetos__link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          Ver mais no Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="depoimentos section-fade" role="region" aria-label="Depoimentos">
+    <div class="container">
+      <span class="section-tag section-tag--center">Depoimentos</span>
+      <h2 class="section-title section-title--center">O que nossos clientes dizem</h2>
+      <div class="depoimentos__grid">
+        <div class="depoimento-card hover-lift reveal reveal-delay-1">
+          <p class="depoimento-card__text">O lago ficou ainda mais bonito do que imaginávamos. A equipe é extremamente profissional e cuidadosa. Nosso jardim virou um refúgio.</p>
+          <div class="depoimento-card__author">
+            <div class="depoimento-card__avatar">MR</div>
+            <div>
+              <div class="depoimento-card__name">Maria Rosa</div>
+              <div class="depoimento-card__role">Residência em Curitiba</div>
+            </div>
+          </div>
+        </div>
+        <div class="depoimento-card hover-lift reveal reveal-delay-2">
+          <p class="depoimento-card__text">A piscina natural superou nossas expectativas. Sem químicos, com plantas lindas e a água sempre cristalina. Recomendo demais!</p>
+          <div class="depoimento-card__author">
+            <div class="depoimento-card__avatar">CP</div>
+            <div>
+              <div class="depoimento-card__name">Carlos Pereira</div>
+              <div class="depoimento-card__role">Chácara em SJP</div>
+            </div>
+          </div>
+        </div>
+        <div class="depoimento-card hover-lift reveal reveal-delay-3">
+          <p class="depoimento-card__text">Profissionalismo do início ao fim. O projeto personalizado ficou perfeito e a manutenção é impecável. Melhor investimento que fizemos.</p>
+          <div class="depoimento-card__author">
+            <div class="depoimento-card__avatar">AF</div>
+            <div>
+              <div class="depoimento-card__name">Ana Ferreira</div>
+              <div class="depoimento-card__role">Condomínio em Colombo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta section-fade" role="region" aria-label="Chamada para ação">
+    <div class="container reveal-scale">
+      <h2>Transforme seu espaço em um ecossistema vivo</h2>
+      <p>Entre em contato e descubra como podemos criar o lago dos seus sonhos.</p>
+      <a href="#contato" class="cta__btn btn-elegant" role="button">Começar Agora</a>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato section-fade" role="region" aria-label="Contato">
+    <div class="container">
+      <div class="contato__grid">
+        <div class="contato__info reveal-left">
+          <span class="section-tag">Contato</span>
+          <h2>Vamos conversar?</h2>
+          <p>Estamos prontos para transformar seu espaço. Atendemos toda a região metropolitana de Curitiba.</p>
+        </div>
+        <div class="contato__icons reveal-right reveal-delay-2">
+          <a href="https://maps.google.com/?q=Curitiba+PR" target="_blank" rel="noopener noreferrer" class="contato__icon-card hover-glow" aria-label="Localização em Curitiba">
+            <div class="contato__icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="contato__icon-label">Curitiba — PR</span>
+          </a>
+          <a href="https://www.instagram.com/aquabotanica_ecossistemas/" target="_blank" rel="noopener noreferrer" class="contato__icon-card hover-glow" aria-label="Perfil no Instagram">
+            <div class="contato__icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <span class="contato__icon-label">Instagram</span>
+          </a>
+          <a href="https://wa.me/554192152473" target="_blank" rel="noopener noreferrer" class="contato__icon-card hover-glow" aria-label="WhatsApp">
+            <div class="contato__icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            </div>
+            <span class="contato__icon-label">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <svg class="footer__icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <path d="M20 4C20 4 8 18 8 26C8 32.627 13.373 38 20 38C26.627 38 32 32.627 32 26C32 18 20 4 20 4Z" fill="#818CF8" opacity="0.8"/>
+          <path d="M16 28C16 28 18 22 24 20C24 20 22 26 16 28Z" fill="#10B981" opacity="0.6"/>
+          <path d="M14 26C14 26 10 24 12 20C12 20 16 22 14 26Z" fill="#34D399" opacity="0.6"/>
+        </svg>
+        <span>Aqua Botânica</span>
+      </div>
+      <p class="footer__copy">&copy; 2026 Aqua Botânica. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- SMOOTH SCROLL REVEAL JS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // All reveal classes
+      var revealClasses = '.reveal, .reveal-left, .reveal-right, .reveal-scale';
+
+      // Intersection Observer for scroll reveal
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+      // Observe all reveal elements
+      var revealElements = document.querySelectorAll(revealClasses);
+      revealElements.forEach(function(el) { observer.observe(el); });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          var target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+
+      // Parallax effect on hero
+      var hero = document.querySelector('.hero');
+      if (hero) {
+        window.addEventListener('scroll', function() {
+          var scrolled = window.pageYOffset;
+          hero.style.transform = 'translateY(' + (scrolled * 0.3) + 'px)';
+        }, { passive: true });
+      }
+    });
+  </script>
+
+  <!-- Screen reader only class -->
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+
+</body>
+</html>
